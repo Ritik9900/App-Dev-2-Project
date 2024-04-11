@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visit Alert</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .container {
+            max-width: 600px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .greeting {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 15px;
+            color: #007bff;
+        }
+
+        .regards {
+            font-style: italic;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p class="greeting">Dear, {{name}}!</p>
+        <p>At GroceRit, we've been hard at work to enhance your shopping experience. 
+           We've noticed that you haven't had the chance to explore our grocery app recently, and we don't want you to miss out on the fantastic updates we've introduced.
+           Your satisfaction is our priority, and we invite you to rediscover the joys of shopping with us. Whether it's exploring new products, snagging daily deals, or experiencing the ease of convenient shopping, we're here to cater to your needs.
+           Should you have any questions or need assistance navigating the app, our dedicated support team is ready to help. 
+           Thank you for choosing GroceRit, and we look forward to serving you with excellence.</p>
+        <p class="regards">Best Regards,<br>GroceRit</p>
+    </div>
+</body>
+</html>
